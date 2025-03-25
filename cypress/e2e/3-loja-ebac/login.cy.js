@@ -6,7 +6,7 @@ describe('Funcionalidade: Login', () => {
     });
 
     afterEach(() => {
-        cy.screenshot()
+        //cy.screenshot()
     });
     it('Deve fazer login com sucesso', () => {
         cy.get('#username').type('testeaires@ebac.com')
