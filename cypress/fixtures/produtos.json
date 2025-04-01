@@ -1,0 +1,20 @@
+[
+    {
+        "nomeProduto": "Apollo Running Short",
+        "tamanho": "34",
+        "cor": "Black",
+        "quantidade": 8
+    },
+    {
+        "nomeProduto": "Aether Gym Pant",
+        "tamanho": "34",
+        "cor": "Brown",
+        "quantidade": 3
+    },
+    {
+        "nomeProduto": "Atlas Fitness Tank",
+        "tamanho": "XL",
+        "cor": "Blue",
+        "quantidade": 4
+    }
+]

@@ -1,5 +1,3 @@
-import { faker } from '@faker-js/faker';
-
 Cypress.Commands.add('login', (user, password) => {
     cy.get('#username').type(user)
     cy.get('#password').type(password)
@@ -19,10 +17,8 @@ Cypress.Commands.add('preCadastro', (email, password, firstName, lastName, displ
 
 
 
-Cypress.Commands.add('detalhesConta', () => {
-    var firstName = faker.person.firstName()
-    var lastName = faker.person.lastName()
-    var displayName = faker.internet.displayName()
+Cypress.Commands.add('detalhesConta', (firstName, lastName, displayName) => {
+  
     cy.get('#account_first_name').type(firstName)
     cy.get('#account_last_name').type(lastName)
     cy.get('#account_display_name').type(displayName)
