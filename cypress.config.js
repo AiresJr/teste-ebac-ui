@@ -6,5 +6,8 @@ module.exports = defineConfig({
       // implement node event listeners here
     },
     baseUrl: 'http://lojaebac.ebaconline.art.br',
+    //projectId: "teste-ebac-ui",
+    projectId: "ij3fje",
   },
+  
 });

@@ -18,7 +18,6 @@ Cypress.Commands.add('preCadastro', (email, password, firstName, lastName, displ
 
 
 Cypress.Commands.add('detalhesConta', (firstName, lastName, displayName) => {
-  
     cy.get('#account_first_name').type(firstName)
     cy.get('#account_last_name').type(lastName)
     cy.get('#account_display_name').type(displayName)
